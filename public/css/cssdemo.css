@@ -1,0 +1,177 @@
+html {
+	height: 100%;
+
+}
+body {
+	position: relative;
+	min-height: 100%;
+	color: black;
+}
+
+.scrollmenu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: #fff;
+	box-shadow: inset 1px -1px 14px 0px #ddd;
+	z-index: 100;
+	width: 100%;
+}
+* {
+padding: 0;
+margin: 0;
+}
+footer.footer {
+   	border-color: #e7e7e7;
+    color: black;
+    position: fixed;
+    background: #fff;
+	box-shadow: inset 2px -2px 26px 1px #ddd;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;	
+    left: 0;
+    top:auto;
+    z-index: 100;
+}
+.fontchu{
+	font-size: 22px;
+	font-family:BlinkMacSystemFont;
+}
+.fontchitiet{
+	font-size: 18px;
+	font-family:BlinkMacSystemFont;
+}
+.fontp{
+	font-size: 18px;
+	font-style: oblique;
+}
+ 
+.bordernut{
+	border-radius: 8px;
+}
+/* hinh dong*/
+.w3-spin{
+	animation: w3-spin 2s infinite linear;
+	}
+	@keyframes w3-spin{
+	0%{-webkit-transform:rotate(0deg);transform: rotate(0deg)}
+	100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}
+}
+/*button trang chu*/
+.classname {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color:#ededed;
+	-webkit-border-top-left-radius:35px;
+	-moz-border-radius-topleft:35px;
+	border-top-left-radius:35px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:35px;
+	-moz-border-radius-bottomright:35px;
+	border-bottom-right-radius:35px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+text-indent:-1px;
+	border:1px solid #ffb5ff;
+	display:inline-block;
+	color:#333033;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:italic;
+height:44px;
+	line-height:44px;
+width:49%;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #ffffff;
+}.classname:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+}.classname:active {
+	position:relative;
+	top:1px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+/*button scroll*/
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 50px;
+  right: 15px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: gray;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+/* button tim kiem*/
+#myBtn:hover {
+  background-color: #555;
+}
+.dropdown.dropdown-lg .dropdown-menu {
+    margin-top: -1px;
+    padding: 6px 20px;
+}
+.input-group-btn .btn-group {
+    display: flex !important;
+}
+.btn-group .btn {
+    border-radius: 0;
+    margin-left: -1px;
+}
+.btn-group .btn:last-child {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.btn-group .form-horizontal .btn[type="submit"] {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.form-horizontal .form-group {
+    margin-left: 0;
+    margin-right: 0;
+}
+.form-group .form-control:last-child {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+@media screen and (min-width: 768px) {
+    #adv-search {
+        width: 500px;
+        margin: 0 auto;
+    }
+    .dropdown.dropdown-lg {
+        position: static !important;
+    }
+    .dropdown.dropdown-lg .dropdown-menu {
+        min-width: 500px;
+    }
+}
+/*ádasd*/
+/* Spinner 1 xoaoay loadind animate */
+@keyframes spinner {
+  to {
+    transform: rotate(360deg);
+  }
+}
